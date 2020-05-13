@@ -1,5 +1,7 @@
 import unittest
-from singly_linked_list import LinkedList
+import sys
+sys.path.append('./singly_linked_list')
+from singly_linked_list import Node,LinkedList
 
 class LinkedListTests(unittest.TestCase):
     def setUp(self):
